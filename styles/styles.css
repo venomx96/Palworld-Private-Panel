@@ -1,1 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #262626;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: flex;
+    margin: 20px 25px;
+}
+
+.Left-containers {
+    flex: 1;
+}
+
+.middle-containers {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px; /* Ajoute un espace à gauche des éléments du milieu */
+}
+
+.right-containers {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px; /* Ajoute un espace à gauche des éléments du milieu */
+}
+
+.request-box {
+    background-color: #363636;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #2e2e2e;
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+label {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    background-color: #454545;
+    color: #ffffff;
+}
+
+.response-container {
+    margin-left: 10px; /* Espacement entre le bouton et la réponse */
+}
+
+/* Style pour le conteneur du formulaire */
+.form-container {
+    position: relative;
+}
+
+/* Positionnement du bouton de déconnexion */
+.logout-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    margin-bottom: 20px; /* Ajoute un décalage de 20px en dessous du bouton */
+}
+
+/* Espacement entre les boutons "Kick" et "Ban" */
+.button-spacing {
+    margin-right: 10px; /* Espacement de 10 pixels */
+}
